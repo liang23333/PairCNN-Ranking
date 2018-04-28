@@ -5,6 +5,7 @@ A tensorflow implementation of [Learning to Rank Short Text Pairs with Convoluti
 As **train.txt** and **test.txt** in **./data** dir, each line is an sample, which is splited by comma: query, document, label. And the example data is created by me to test the code, which is not real click data.
 
 ## Usage
+   this model can be used for chinese and english matching,left for chinese ,right for english 
 ```bash
 python train.py -h
 ```
